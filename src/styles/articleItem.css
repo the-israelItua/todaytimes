@@ -1,0 +1,21 @@
+a {
+  text-decoration: none;
+}
+.article-item {
+  margin: 1rem 0;
+}
+.article__image {
+  object-fit: contain;
+  width: 90vw;
+}
+
+@media (min-width: 1500px) {
+  .article-item {
+    width: 50vw;
+  }
+  .article__image {
+    object-fit: contain;
+    width: unset;
+    height: 50vh;
+  }
+}

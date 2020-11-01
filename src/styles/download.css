@@ -1,0 +1,36 @@
+.download {
+  display: none;
+}
+
+@media (min-width: 1500px) {
+  .download {
+    display: block;
+    position: fixed;
+    top: 40%;
+  }
+  .download h4 {
+    font-size: 1.4rem;
+  }
+  .download-buttons {
+    display: flex;
+  }
+  .app-store,
+  .google-play {
+    display: flex;
+    background: rgba(19, 18, 18, 0.9);
+    color: white;
+    padding: 0.7rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    width: 10rem;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+  .text {
+    margin-left: 0.4rem;
+  }
+  .text p {
+    font-size: 0.7rem;
+  }
+}

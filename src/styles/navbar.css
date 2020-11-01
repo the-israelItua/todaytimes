@@ -1,0 +1,44 @@
+.navbar {
+  background: black !important;
+  color: white !important;
+}
+.navbar__logo {
+  margin-left: -1rem;
+  padding: 1rem;
+  background: grey !important;
+}
+.navbar__logo svg {
+  margin-left: 0.6rem;
+}
+.navbar__header {
+  flex: 1;
+  margin-left: 1rem;
+}
+.navbar__header h5 {
+  font-size: 1.6rem;
+  font-family: cursive !important;
+  text-transform: uppercase;
+}
+.navbar__header p {
+  font-size: 0.8rem;
+  color: grey;
+}
+.__searchbar {
+  padding-top: 1rem;
+  margin-left: 3.5rem;
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  align-content: center;
+  align-items: center;
+}
+
+.navbar__input input {
+  padding: 0 1rem;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.8);
+  width: 80vw;
+  font-size: 1.3rem;
+  outline: none;
+  border: 0;
+}
